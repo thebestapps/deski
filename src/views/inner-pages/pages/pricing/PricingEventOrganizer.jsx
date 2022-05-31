@@ -21,6 +21,79 @@ const EventOrganizer = () => {
      =============================================
 			Pricing Section Three
 		============================================== */}
+
+
+      <div className="fancy-text-block-seven mt-130 md-mt-80">
+        <div className="bg-wrapper no-bg">
+          <img
+            src="images/shape/29.svg"
+            alt="shape"
+            className="shapes shape-one"
+          />
+          <img
+            src="images/shape/30.svg"
+            alt="shape"
+            className="shapes shape-two"
+          />
+          <img
+            src="images/shape/31.svg"
+            alt="shape"
+            className="shapes shape-three"
+          />
+          <img
+            src="images/shape/32.svg"
+            alt="shape"
+            className="shapes shape-four"
+          />
+          <img
+            src="images/shape/33.svg"
+            alt="shape"
+            className="shapes shape-five"
+          />
+          <div className="container">
+            <div className="row">
+              <div
+                className="col-lg-5 col-md-6 col-sm-10 m-auto"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+              >
+
+                <div className="quote-wrapper pt-60">
+                  <img src="images/icon/26.svg" alt="icon" className="icon" />
+                  <blockquote className="font-rubik">
+                    <span className="font-ft-rd">RED</span>CRIX. Your Technology Partner.
+                  </blockquote>
+                  {/* <h6 className="mt-20">
+                    Mike Lucas. <span>CEO & Founder deksi</span>
+                  </h6> */}
+                </div>
+
+
+              </div>
+              <div
+                className="col-xl-6 col-lg-7 ml-auto"
+                data-aos="fade-left"
+                data-aos-duration="1200"
+              >
+
+                <div className="img-holder">
+                  <img src="images/media/img_19.png" alt="media" />
+                  <img
+                    src="../../../../assets/source/"
+                    alt="shape"
+                    className="shapes shape-six"
+                  />
+                </div>
+
+
+                {/* /.quote-wrap1per */}
+              </div>
+            </div>
+          </div>
+        </div>
+        {/*  /.bg-wrapper */}
+      </div>
+
       <div className="pricing-section-three-inner-page mb-200 md-mb-120">
         <img
           src="images/shape/124.svg"

@@ -22,10 +22,15 @@ const ContactProjectManagement = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-9 col-lg-11 m-auto">
-              <div className="page-title">Contact us</div>
-              <h2 className="font-rubik">
-                Feel free to contact us or just say hi!
+              {/* <div className="page-title">Contact us</div> */}
+              <h2 >
+              Give Us a Shout!
               </h2>
+
+              <div className="sub-text">
+              We know how to incorporate the tech solutions that best suit our case.
+                  </div>
+
             </div>
           </div>
           {/* End .row */}

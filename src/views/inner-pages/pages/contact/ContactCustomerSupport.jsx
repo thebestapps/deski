@@ -6,7 +6,7 @@ import ContactForm from "../../../../components/contact/form/ContactForm";
 import FooterTwo from "../../../../components/footer/FooterTwo";
 import CopyRightTwo from "../../../../components/footer/CopyRightTwo";
 import CallToActionThree from "../../../../components/call-to-action/CallToActionThree";
-
+import img4 from '../../../../assets/images/assets/ct-img.png';
 const ContactCustomerSupport = () => {
   useDocumentTitle(
     "Contact Customer Support || Deski-Saas & Software React Template"
@@ -25,20 +25,53 @@ const ContactCustomerSupport = () => {
         <div className="shapes shape-one"></div>
         <div className="shapes shape-two"></div>
         <div className="shapes shape-three"></div>
-        <div className="shapes shape-four"></div>
-        <div className="shapes shape-five"></div>
-        <div className="shapes shape-six"></div>
+
         <div className="bg-wrapper">
           <div className="container">
             <div className="row">
-              <div className="col-xl-9 col-lg-11 col-md-10 m-auto">
-                <h6>Contact us</h6>
-                <h2>Feel free to contact us or just say hi!</h2>
+
+            <div className="block-style-nine">
+              <div className="row align-items-center">
+                <div
+                  className="col-lg-7 col-md-9 m-auto"
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                >
+                  <div className="holder">
+                    <img src={img4} alt="illustrator" />
+                  </div>{" "}
+                  {/* /.illustration-holder */}
+                </div>
+                <div
+                  className="col-lg-5"
+                  data-aos="fade-left"
+                  data-aos-duration="1200"
+                >
+                       <h2>  Give Us a Shout!</h2>
+                  <div className="text-wrapper">
+                
+             
+                    <p className="font-rubik">
+                    We know how to incorporate the tech solutions that best suit our case.
+                    </p>
+                  </div>{" "}
+                  {/* /.text-wrapper */}
+                </div>
               </div>
+            </div>{" "}
+            
+              {/* <div className="col-xl-9 col-lg-11 col-md-10 m-auto">
+
+                <h2>  Give Us a Shout!</h2>
+
+                <div className="sub-text">
+              We know how to incorporate the tech solutions that best suit our case.
+                  </div>
+
+              </div> */}
             </div>
           </div>
         </div>
-        {/* /.bg-wrapper */}
       </div>
       {/* /.fancy-hero-four */}
 

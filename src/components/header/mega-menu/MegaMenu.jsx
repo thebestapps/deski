@@ -112,21 +112,21 @@ const Pricing = [
 ];
 const AboutUs = [
   {
-    name: "Customer Support",
+    name: "About Redcrix",
     routerPath: "/about-cs",
   },
+  // {
+  //   name: "Event Organiser",
+  //   routerPath: "/about-eo",
+  // },
   {
-    name: "Event Organiser",
-    routerPath: "/about-eo",
-  },
-  {
-    name: "Project Management",
+    name: "Our Vision",
     routerPath: "/about-pm",
-  },
-  {
-    name: "Documentation",
-    routerPath: "/about-doc",
-  },
+  }
+  // {
+  //   name: "Documentation",
+  //   routerPath: "/about-doc",
+  // },
 ];
 
 const ContactUS = [
@@ -244,7 +244,7 @@ const Docs = [
 const MegaMenu = () => {
   return (
     <ul className="navbar-nav">
-      <li className="nav-item dropdown position-static active">
+      {/* <li className="nav-item dropdown position-static active">
         <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
           Home
         </a>
@@ -262,8 +262,8 @@ const MegaMenu = () => {
             ))}
           </ul>
         </div>
-        {/* /.dropdown-menu */}
-      </li>
+
+      </li> */}
       {/* End li */}
 
       <li className="nav-item dropdown">
@@ -271,7 +271,7 @@ const MegaMenu = () => {
           Info
         </a>
         <ul className="dropdown-menu">
-          <li className="dropdown-submenu dropdown">
+          {/* <li className="dropdown-submenu dropdown">
             <a
               href="#"
               className="dropdown-item dropdown-toggle"
@@ -288,17 +288,25 @@ const MegaMenu = () => {
                 </li>
               ))}
             </ul>
-          </li>
+          </li> */}
           <li className="dropdown-submenu dropdown">
-            <a
-              href="#"
-              className="dropdown-item dropdown-toggle"
-              data-toggle="dropdown"
-            >
-              About Us
+
+            {AboutUs.map((val, i) => (
+              <li key={i}>
+                <Link to={val.routerPath} className="dropdown-item">
+                  {val.name}
+                </Link>
+              </li>
+            ))}
+
+          </li>
+
+          <li className="dropdown-submenu dropdown">
+            <a className="dropdown-item" href="#" data-toggle="dropdown">
+              Articles
             </a>
             <ul className="dropdown-menu">
-              {AboutUs.map((val, i) => (
+              {Blogs.map((val, i) => (
                 <li key={i}>
                   <Link to={val.routerPath} className="dropdown-item">
                     {val.name}
@@ -306,26 +314,11 @@ const MegaMenu = () => {
                 </li>
               ))}
             </ul>
+            {/* /.dropdown-menu */}
           </li>
-          <li className="dropdown-submenu dropdown">
-            <a
-              href="#"
-              className="dropdown-item dropdown-toggle"
-              data-toggle="dropdown"
-            >
-              Contact Us
-            </a>
-            <ul className="dropdown-menu">
-              {ContactUS.map((val, i) => (
-                <li key={i}>
-                  <Link to={val.routerPath} className="dropdown-item">
-                    {val.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-          <li className="dropdown-submenu dropdown">
+
+
+          {/* <li className="dropdown-submenu dropdown">
             <a
               href="#"
               className="dropdown-item dropdown-toggle"
@@ -360,62 +353,92 @@ const MegaMenu = () => {
               {" "}
               404
             </Link>
-          </li>
+          </li> */}
         </ul>
         {/* /.dropdown-menu */}
       </li>
       {/* End li */}
 
-      <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-          Serrvices
+      <li className="nav-item">
+        <a className="nav-link ">
+          
+          <Link to="/product-customer-support">
+          Work
+            </Link>
+
         </a>
 
-        <ul className="dropdown-menu">
-          <li className="dropdown-submenu dropdown">
-            <a
-              href="#"
-              className="dropdown-item dropdown-toggle"
-              data-toggle="dropdown"
-            >
-              Miscellaneous
-            </a>
-            <ul className="dropdown-menu">
-              {Miscellaneous.map((val, i) => (
-                <li key={i}>
-                  <Link to={val.routerPath} className="dropdown-item">
-                    {val.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </li>
-          <li>
-            <Link to="/solution-management" className="dropdown-item">
-              Solution (Management)
-            </Link>
-          </li>
-          <li>
-            <Link to="/product-customer-support" className="dropdown-item">
-              Product (Customer Support)
-            </Link>
-          </li>
-          <li>
-            <Link to="/features-customer-support" className="dropdown-item">
-              Features (Customer Support)
-            </Link>
-          </li>
-        </ul>
+     
         {/* /.dropdown-menu */}
       </li>
+
+      <li className="nav-item">
+        <a className="nav-link ">
+          
+          <Link to="/pricing-pm" >
+          Services
+            </Link>
+
+        </a>
+
+     
+        {/* /.dropdown-menu */}
+      </li>
+
+
+  
+      <li className="nav-item">
+        <a className="nav-link ">
+          
+          <Link to="/product-customer-support" >
+          Expertise
+            </Link>
+
+        </a>
+
+     
+        {/* /.dropdown-menu */}
+      </li>
+
+      <li className="nav-item">
+        <a className="nav-link ">
+          
+          <Link to="/product-customer-support" >
+          Career
+            </Link>
+
+        </a>
+
+     
+        {/* /.dropdown-menu */}
+      </li>
+
+      <li className="nav-item">
+        <a className="nav-link ">
+          
+          <Link to="/contact-cs" >
+          Contact
+            </Link>
+
+        </a>
+
+     
+        {/* /.dropdown-menu */}
+      </li>
+
+
       {/* End li */}
 
-      <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-          Articles
+      {/* <li className="nav-item dropdown">
+        <a
+          href="#"
+          className="nav-link dropdown-toggle"
+          data-toggle="dropdown"
+        >
+          Contact Us
         </a>
         <ul className="dropdown-menu">
-          {Blogs.map((val, i) => (
+          {ContactUS.map((val, i) => (
             <li key={i}>
               <Link to={val.routerPath} className="dropdown-item">
                 {val.name}
@@ -423,11 +446,12 @@ const MegaMenu = () => {
             </li>
           ))}
         </ul>
-        {/* /.dropdown-menu */}
-      </li>
+      </li> */}
+
+
       {/* End li */}
 
-      <li className="nav-item dropdown">
+      {/* <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
           Docs
         </a>
@@ -440,8 +464,7 @@ const MegaMenu = () => {
             </li>
           ))}
         </ul>
-        {/* /.dropdown-menu */}
-      </li>
+      </li> */}
 
       {/* End li */}
     </ul>

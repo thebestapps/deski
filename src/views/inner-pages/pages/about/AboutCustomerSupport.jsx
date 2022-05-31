@@ -28,13 +28,14 @@ const CustomerSupport = () => {
       <div className="fancy-hero-two">
         <div className="bg-wrapper">
           <div className="container">
-            <div className="page-title">About us</div>
+            <div className="page-title">
+            About Our Organisation
+            </div>
             <div className="row">
               <div className="col-xl-8 col-lg-10 col-md-10 m-auto">
-                <h1 className="heading">World best customer support portal</h1>
+                {/* <h1 className="heading">World best customer support portal</h1> */}
                 <p className="sub-heading">
-                  deski helps teams of all sizes get better at delivering
-                  effortless customer service experiences.
+                Redcrix Technologies Pvt Ltd represents considerable authority of designing & development of websites and apps. Being an offshore development company, we recognize the need of our customers. We hire qualified professionals from reputed engineering and management institutions with proven records of software development. The work platforms are maintained using expert professional advice to help the team deliver accurately.
                 </p>
               </div>
             </div>
@@ -58,7 +59,7 @@ const CustomerSupport = () => {
             <div className="row">
               <div className="col-lg-10 m-auto">
                 <p>Our Story</p>
-                <h2>The world’s first Conversational Relationship Platform</h2>
+                <h2>Mission</h2>
               </div>
             </div>
           </div>
@@ -71,10 +72,7 @@ const CustomerSupport = () => {
                 data-aos="fade-up"
                 data-aos-duration="1200"
               >
-                We created Help deski for businesses that share our passion for
-                doing right by the customer. For many of us, great customer
-                service isn’t a cost center — it’s an effective marketing tool,
-                a competitive differentiator, and a cornerstone of the brand.
+              We assure to provide safe outsourcing services, secure processes, and top quality results. Each project is most important for us. Once get awarded; your project would be in safer hands and with mutual cooperation of both the parties at each phase, undoubtedly the project will turn out to a big success.
               </p>
               <p
                 className="text-meta"
@@ -82,12 +80,30 @@ const CustomerSupport = () => {
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                But in 2008, there were no customer service platforms available
-                that embodied our customer-centric values. There were help desks
-                that quite literally treated each person like a number and made
-                it far too difficult to build a long-term relationship. We felt
-                a strong pull to make something different, and we did.
+   We are here to ensure that the life of many people is made better every single day of their life. We know that times are changing and there is need for development in terms of online products. There is also a need for the marketing of products. That is the only way the targets who are the potential buyers will get to know about it.
               </p>
+
+              <p
+                className="text-meta"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="100"
+              >
+ We are a company that is based on services and products. This includes dealing with development and product marketing. At REDCRIX, our target and focus are to get people in need of website development, mobile development, SEO, digital marketing, or other IT maintenance service. We bring quality services and results to your doorsteps.
+            </p>
+
+
+            <p
+                className="text-meta"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="100"
+              >
+
+We have decided to make our services available to all. It has been made possible for so many people to be able to request for our services and also have the strength financially to pay for the services he/she requested for.
+     </p>
+
+
             </div>
           </div>
           {/* End .row */}

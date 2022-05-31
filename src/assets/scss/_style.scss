@@ -295,10 +295,10 @@ Primary use:  ib-themes
   --text-color: #73737b;
   --text-light: #888888;
   --heading: #101621;
-  --blue-dark: #6f55ff;
+  --blue-dark: #ff0000;
   --red-light: #fd6a5e;
-  --yellow-deep: #ffb840;
-  --blue-light: #3bb0d7;
+  --yellow-deep: #ff0000;
+  --blue-light: #fd6a5e;
   --purple-blue: #655c97;
   --vin-red: #973c56;
   scroll-behavior: smooth;
@@ -1558,7 +1558,7 @@ body .theme-btn-ten:before {
 .block-style-two .img-holder-one .bubble-one:before {
   width: 8px;
   height: 8px;
-  background: #ae78ff;
+  background: #ff8383;
   top: 0;
   left: 50%;
 }
@@ -2244,7 +2244,7 @@ body .theme-btn-ten:before {
 .fancy-short-banner-one .bubble-five {
   width: 25px;
   height: 25px;
-  background: #b183ff;
+  background: var(--blue-dark);
   bottom: -12px;
   left: 12%;
   animation: scale-up-one 4s infinite linear;
@@ -2768,7 +2768,7 @@ body .theme-btn-ten:before {
 .fancy-text-block-one .bubble-five {
   width: 25px;
   height: 25px;
-  background: #b183ff;
+  background: #ffc583;
   bottom: 7%;
   left: 9%;
   animation: scale-up-one 4s infinite linear;
@@ -2796,7 +2796,7 @@ body .theme-btn-ten:before {
 .counter-box-two em {
   font-size: 20px;
   display: block;
-  color: #8e8e8e;
+  color: #ff8383;
   font-style: normal;
 }
 .counter-box-two p {
@@ -2830,7 +2830,7 @@ body .theme-btn-ten:before {
   padding-bottom: 60px;
 }
 .fancy-text-block-three .feature-content.light-bg {
-  background: #5e43f0;
+  background: black;
   border-radius: 5px 0 0 5px;
 }
 .fancy-text-block-three .feature-content.dark-bg {
@@ -2905,7 +2905,7 @@ body .theme-btn-ten:before {
 .fancy-text-block-three .bubble-three {
   width: 20px;
   height: 20px;
-  background: #b183ff;
+  background: var(--blue-dark);
   bottom: 16%;
   left: 9%;
   animation: scale-up-one 4s infinite linear;
@@ -3258,7 +3258,7 @@ body .theme-btn-ten:before {
 }
 .contact-us-light .address-info .title {
   font-size: 18px;
-  color: #8e8e8e;
+  color: #ff8383;
   padding: 30px 0 5px;
 }
 .contact-us-light .address-info p {
@@ -3269,7 +3269,7 @@ body .theme-btn-ten:before {
 .contact-us-light .address-info ul li a {
   font-size: 22px;
   margin: 5px 15px;
-  color: rgba(0, 0, 0, 0.52);
+  color: #ff8383;
   transition: all 0.2s ease-in-out;
 }
 .contact-us-light .address-info ul li a:hover {
@@ -4806,7 +4806,7 @@ body .theme-btn-ten:before {
 }
 /*----------------- Fancy Feature Seven --------------*/
 .fancy-feature-seven {
-  background: #ecf6ff;
+  // background: #ecf6ff;
   padding: 170px 0 150px;
   position: relative;
   z-index: 1;
@@ -5095,7 +5095,7 @@ body .theme-btn-ten:before {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #b183ff;
+  background: var(--blue-dark);
   left: 11%;
   bottom: 16%;
   animation: jumpTwo 5s infinite linear;
@@ -5110,7 +5110,7 @@ body .theme-btn-ten:before {
   animation: jumpTwo 5s infinite linear;
 }
 .fancy-text-block-fifteen .bg-wrapper {
-  background: #5e43f0;
+  background: black;
   border-radius: 10px;
   padding: 85px 60px 0 15px;
 }
@@ -5155,7 +5155,7 @@ body .theme-btn-ten:before {
 }
 /*-------------------- Fancy Hero Four ---------------------*/
 .fancy-hero-four {
-  background: #ecf6ff;
+  // background: #ecf6ff;
   position: relative;
   padding: 185px 0 390px;
   z-index: 5;
@@ -5449,7 +5449,7 @@ body .theme-btn-ten:before {
 }
 .contact-style-two .contact-info-wrapper .address-info .title {
   font-size: 20px;
-  color: #8e8e8e;
+  color: #ff8383;
   padding: 17px 0 22px;
   position: relative;
   display: inline-block;
@@ -5472,7 +5472,7 @@ body .theme-btn-ten:before {
 .contact-style-two .contact-info-wrapper .address-info ul li a {
   font-size: 22px;
   margin: 5px 15px;
-  color: rgba(0, 0, 0, 0.52);
+  color: #ff8383;
   transition: all 0.2s ease-in-out;
 }
 .contact-style-two .contact-info-wrapper .address-info ul li a:hover {
@@ -5901,7 +5901,7 @@ body .theme-btn-ten:before {
 .blog-page-bg .shape-one {
   width: 30px;
   height: 30px;
-  background: #b183ff;
+  background: var(--blue-dark);
   border-radius: 50%;
   top: -15px;
   left: 40%;
@@ -12077,7 +12077,7 @@ body .theme-btn-ten:before {
 .fancy-short-banner-eleven .bubble-three {
   width: 25px;
   height: 25px;
-  background: #b183ff;
+  background: var(--blue-dark);
   bottom: -12px;
   left: 12%;
   animation: scale-up-one 4s infinite linear;
@@ -13277,4 +13277,33 @@ body .theme-btn-ten:before {
   background-size: cover;
   left: 0;
   bottom: -28px;
+}
+
+h2.font-rubik.tech-partner {
+  font-size: 42px;
+  font-family: "gilroy-black" !important;
+}
+
+span.txt-rd {
+  color: var(--blue-dark);
+}
+
+.offer-text.font-rubik.h-3 {
+  font-size: 48px;
+}
+
+img.main-img.d3 {
+  width: 92px;
+}
+.row.txtalgn {
+  text-align: center !important;
+  display: block;
+  margin-bottom: 7% !important;
+}
+.detail-cycle {
+  color: black;
+}
+
+more-cycle {
+  font-size: 15px;
 }

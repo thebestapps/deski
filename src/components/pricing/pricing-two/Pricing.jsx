@@ -7,25 +7,25 @@ const Pricing = () => {
   return (
     <Tabs>
       <TabList className="nav nav-tabs pricing-nav-one pricing-custom-nav-one mb-0">
-        <div className="d-flex flex-wrap justify-content-center mb-1">
-          <Tab>Monthly</Tab>
-          <Tab>Yearly</Tab>
-        </div>
-        <div className="offer-text font-rubik mt-3">
-          Save 30% on annual plan
+       
+        <div className="offer-text font-rubik h-3">
+          Popular
         </div>
       </TabList>
 
-      <div className="tab-content-wrpper">
+      <PricingYearly />
+      
+
+      {/* <div className="tab-content-wrpper">
         <TabPanel>
           <PricingMonthly />
         </TabPanel>
-        {/* End Pricing Month */}
+
         <TabPanel>
-          <PricingYearly />
+
         </TabPanel>
-        {/* End Pricing Year */}
-      </div>
+
+      </div> */}
     </Tabs>
   );
 };

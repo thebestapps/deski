@@ -36,9 +36,10 @@ const CounterThreeColored = () => {
         >
           <div className="counter-box-three">
             <div className="icon">
-              <img src={`images/icon/${val.icon}.svg`} alt="icon" />
+            <img className="redcrix_certification-image aligncenter"  src="https://goodfirms.s3.amazonaws.com/badges/normal-badge/app-development.svg" alt="GoodFirms Badge" />
+              {/* <img src={`images/icon/${val.icon}.svg`} alt="icon" /> */}
             </div>
-            <h2 className="number">
+            {/* <h2 className="number">
               <span className="timer">
                 {" "}
                 <CountUp
@@ -61,8 +62,8 @@ const CounterThreeColored = () => {
                 </CountUp>{" "}
               </span>{" "}
               m
-            </h2>
-            <p className="font-rubik">{val.meta}</p>
+            </h2> */}
+            {/* <p className="font-rubik">{val.meta}</p> */}
           </div>
         </div>
       ))}

@@ -24,6 +24,7 @@
     "react-scrollspy": "^3.4.3",
     "react-scrollspy-nav": "^1.2.4",
     "react-slick": "^0.28.1",
+    "react-svg-color": "^2.3.0",
     "react-tabs": "^3.2.2",
     "react-text-loop": "^2.3.0",
     "react-tooltip": "^4.2.21",

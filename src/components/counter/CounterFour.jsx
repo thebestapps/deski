@@ -1,6 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
+// import sliderimage from '../../../../assets/wp-img/undraw_Mobile_app_p3ts.png';
 
 const counterUpContent = [
   {
@@ -9,6 +10,7 @@ const counterUpContent = [
     endPointText: "",
     meta: "Positive review and counting",
     animationDelay: "0",
+    image:""
   },
   {
     startCount: "0",
@@ -33,33 +35,14 @@ const CounterFour = () => {
       {counterUpContent.map((val, i) => (
         <div
           className="col-lg-4 col-sm-6"
-          data-aos="fade-up"
-          data-aos-duration="1200"
-          data-aos-delay={val.animationDelay}
+
+
           key={i}
         >
           <div className="counter-box-two">
             <h2 className="number">
               <span className="timer">
-                {" "}
-                <CountUp
-                  start={focus ? val.startCount : null}
-                  end={val.endCount}
-                  duration={1}
-                  redraw={true}
-                >
-                  {({ countUpRef }) => (
-                    <VisibilitySensor
-                      onChange={(isVisible) => {
-                        if (isVisible) {
-                          setFocus(true);
-                        }
-                      }}
-                    >
-                      <span ref={countUpRef} />
-                    </VisibilitySensor>
-                  )}
-                </CountUp>
+             <p>fdsds</p>
               </span>
               {val.endPointText}
             </h2>

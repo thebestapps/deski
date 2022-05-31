@@ -1,5 +1,6 @@
 import React from "react";
 import Brand from "../brand/Brand";
+import SvgColor from 'react-svg-color';
 
 const HeroBannerTwo = () => {
   const handleSubmit = (event) => {
@@ -39,11 +40,17 @@ const HeroBannerTwo = () => {
               <h1>
                 <span>
                   Your technology
-                  <img
+                  <SvgColor
+                    svg="images/shape/line-shape-1.svg"
+                    width={200}
+                    colors={["#FF0000", "#FF0000"]}
+                  />
+
+                  {/* <img
                     src="images/shape/line-shape-1.svg"
                     alt="shape"
                     className="cs-screen"
-                  />
+                  /> */}
                 </span>
                 partner.
               </h1>
@@ -71,7 +78,7 @@ const HeroBannerTwo = () => {
             <div className="col-12">
               <p>
                 Top rated agency. iOS, Android and PWA app developers{" "}
-                <span>contact@redcrix.com</span>
+                {/* <span>contact@redcrix.com</span> */}
               </p>
             </div>
             <div className="col-12">

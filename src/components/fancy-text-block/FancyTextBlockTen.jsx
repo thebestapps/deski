@@ -11,14 +11,13 @@ const FancyTextBlockTen = () => {
         >
           <img src="images/icon/34.svg" alt="" className="icon" />
           <p className="font-rubik">
-            Deski combines excellent live chat, ticketing and automation that
-            allow us to provide quality.
+          Shubam and his team are phenomenal and very adaptable. They are able to handle essentially any challenge. Will certainly hire again for all other development projects
           </p>
           <div className="name sm-mb-40">
-            Mike Lucas.{" "}
+          Alexander Leruths{" "}
             <span>
               CEO & Founder <br />
-              deksi
+              Leruths Enterprises
             </span>
           </div>
         </div>

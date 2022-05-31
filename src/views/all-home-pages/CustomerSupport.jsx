@@ -11,6 +11,9 @@ import Testimonial from "../../components/testimonial/Testimonial";
 import CallToActionThree from "../../components/call-to-action/CallToActionThree";
 import FooterTwo from "../../components/footer/FooterTwo";
 import CopyRightTwo from "../../components/footer/CopyRightTwo";
+import SvgColor from 'react-svg-color';
+import { Link } from "react-router-dom";
+
 
 const CustomerSupport = () => {
   useDocumentTitle("REDCRIX TECHNOLOGIES");
@@ -48,11 +51,16 @@ const CustomerSupport = () => {
             <div className="title-style-two text-center mb-100 md-mb-50">
               <div className="row">
                 <div className="col-xl-8 col-lg-9 col-md-10 m-auto">
-                  <p>Services</p>
                   <h2>
                     <span>
-                      Group of Web Developers.{" "}
-                      <img src="images/shape/line-shape-2.svg" alt="shape" />
+                      Services.{" "}
+                      <SvgColor
+                        svg="../../assets/images/shape/line-shape-2.svg"
+                        width={200}
+                        colors={["#7EADCC", "#316F99", "#FFFDB8", "#FF8D78", "#FF8D78", "#7EADCC", "#B8FFF6", "#B8FFF6", "#FF8D78"]}
+                      />
+
+                      {/* <img  src="images/shape/line-shape-2.svg" alt="shape" /> */}
                     </span>
                   </h2>
                 </div>
@@ -96,7 +104,7 @@ const CustomerSupport = () => {
                 <p>START YOUR PROJECT</p>
                 <h2>
                   <span>
-                    Portfolio of work{" "}
+                    Work{" "}
                     <img src="images/shape/line-shape-3.svg" alt="shape" />
                   </span>
                   delivered.
@@ -104,6 +112,13 @@ const CustomerSupport = () => {
               </div>
               {/* End title */}
               {/* <Faq /> */}
+
+
+              <Link to="/about-cs" className="theme-btn-two mt-45 md-mt-30">
+            {" "}
+            View more
+          </Link>
+
             </div>
             {/* End .col */}
           </div>
@@ -157,11 +172,11 @@ const CustomerSupport = () => {
       </div>
       {/* /.fancy-text-block-six  */}
 
-      <div className="counter-with-icon-one pt-200 md-pt-80">
+      {/* <div className="counter-with-icon-one pt-200 md-pt-80">
         <div className="container">
           <CounterThree />
         </div>
-      </div>
+      </div> */}
       {/* /.counter-with-icon-one */}
 
       {/* 
@@ -399,12 +414,12 @@ const CustomerSupport = () => {
                 <div className="col-lg-10 col-md-11 m-auto">
                   <p>Large Icosystem of Frameworks</p>
                   <h2>
-                    Technologies
+                    Technologies we use everyday.
                     <span>
-                      we use every
+
                       <img src="images/shape/line-shape-2.svg" alt="" />
                     </span>
-                    day.
+
                   </h2>
                 </div>
               </div>
